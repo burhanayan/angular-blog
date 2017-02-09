@@ -1,6 +1,10 @@
 # An Angular Blog
 This repository may include incomplete items.
 
+## Project Folder Structure
+<p align="left">
+    <img alt="angular-blog file structure" src="./assets/angular-blog_ folder-structure.PNG">
+</p>
 ## Project Setup and Tooling
 
 ### Tools
