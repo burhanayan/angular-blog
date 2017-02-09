@@ -1,4 +1,5 @@
-# Angular Fundamentals Seed
+# An Angular Blog
+This repository may include incomplete items.
 
 ## Project Setup and Tooling
 
