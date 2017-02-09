@@ -1,5 +1,9 @@
 # Project
 .idea
+.vscode
+
+# Logs
+.log
 
 # Node
 node_modules
