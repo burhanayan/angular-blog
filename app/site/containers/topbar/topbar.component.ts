@@ -16,33 +16,27 @@ export class TopbarComponent implements OnInit {
     nav: Nav[] = [
         {
             link: '/dashboard/oss-package-group',
-            name: 'OSS Paket Grup',
+            name: 'HOME',
             exact: true,
-            id: 'OSS_PACKAGE_GROUP'
+            id: '_home'
         },
         {
             link: '/dashboard/tariff-group',
-            name: 'Tarif Grup',
+            name: 'ABOUT',
             exact: true,
-            id: 'TARIFF_GROUP'
+            id: '_about'
         },
         {
             link: '/dashboard/oss-package',
-            name: 'OSS Paket',
+            name: 'CONTACT',
             exact: true,
-            id: 'OSS_PACKAGE'
+            id: '_contact'
         },
         {
             link: '/dashboard/tariff',
             name: 'Tarifeler',
             exact: true,
             id: 'TARIFF'
-        },
-        {
-            link: '/dashboard/products',
-            name: 'Ürünler',
-            exact: true,
-            id: 'ESHOP_PRODUCTS'
         }
     ];
 

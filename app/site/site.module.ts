@@ -1,4 +1,5 @@
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 
 // Root Containers
 import { SiteComponent } from './site.component';
@@ -9,7 +10,7 @@ import { SidebarComponent } from './containers/sidebar/sidebar.component';
 
 
 @NgModule({
-    imports: [],
+    imports: [BrowserModule],
     exports: [SiteComponent],
     declarations: [SiteComponent, TopbarComponent, SidebarComponent, FooterComponent],
     providers: [],
