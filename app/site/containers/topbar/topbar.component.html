@@ -1,6 +1,6 @@
-This is site topbar!
 <div class="site-topbar">
     <nav class="nav">
-        <a *ngFor="let item of nav">{{item.name}}</a>
+        <a [routerLink]="home.link"><img class="logo" [src]="home.img"></a>
+        <a class="_dynamic" *ngFor="let item of nav" [routerLink]="item.link" routerLinkActive="active" [routerLinkActiveOptions]="item.exact">{{item.name}}</a>
     </nav>
 </div>

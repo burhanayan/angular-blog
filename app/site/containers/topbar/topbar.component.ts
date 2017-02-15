@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 interface Nav {
-  link: string;
-  name: string;
-  exact: boolean;
-  id: string;
+    link: string;
+    name: string;
+    exact: boolean;
+    id: string;
 }
 @Component({
     selector: 'app-site-topbar',
@@ -14,31 +14,30 @@ interface Nav {
 export class TopbarComponent implements OnInit {
 
     nav: Nav[] = [
+        // {
+        //     link: '/',
+        //     name: 'HOME',
+        //     exact: true,
+        //     id: '_home'
+        // },
         {
-            link: '/dashboard/oss-package-group',
-            name: 'HOME',
-            exact: true,
-            id: '_home'
-        },
-        {
-            link: '/dashboard/tariff-group',
+            link: '/about',
             name: 'ABOUT',
             exact: true,
             id: '_about'
         },
         {
-            link: '/dashboard/oss-package',
+            link: '/contact',
             name: 'CONTACT',
             exact: true,
             id: '_contact'
-        },
-        {
-            link: '/dashboard/tariff',
-            name: 'Tarifeler',
-            exact: true,
-            id: 'TARIFF'
         }
     ];
+    home = {
+        img: 'assets/angular_whiteTransparent.png',
+        link: '/'
+
+    };
 
     constructor(public router: Router) { }
 
