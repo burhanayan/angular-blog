@@ -6,6 +6,12 @@ interface Nav {
     exact: boolean;
     id: string;
 }
+interface SocialMedia {
+    link: string;
+    src: string;
+    name: string;
+    target: string;
+}
 @Component({
     selector: 'app-site-topbar',
     templateUrl: 'topbar.component.html',
@@ -33,6 +39,33 @@ export class TopbarComponent implements OnInit {
             id: '_contact'
         }
     ];
+
+    socialMediaIcons: SocialMedia[] = [
+        {
+            link: 'https://www.facebook.com',
+            name: 'Facebook',
+            src: 'assets/social-media-icons/facebook.svg',
+            target: '_blank'
+        },       
+        {
+            link: 'https://www.twitter.com',
+            name: 'Twitter',
+            src: 'assets/social-media-icons/twitter.svg',
+            target: '_blank'
+        },        {
+            link: 'https://www.linkedin.com',
+            name: 'Linkedin',
+            src: 'assets/social-media-icons/linkedin.svg',
+            target: '_blank'
+        },        
+        {
+            link: 'https://www.github.com',
+            name: 'Github',
+            src: 'assets/social-media-icons/github.svg',
+            target: '_blank'
+        }
+    ];
+
     home = {
         img: 'assets/angular_whiteTransparent.png',
         link: '/'

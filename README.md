@@ -3,9 +3,13 @@ This repository may include incomplete items.
 
 ## Project Folder Structure
 <p align="left">
-    <img alt="angular-blog file structure" src="./assets/angular-blog_ folder-structure.PNG">
+    <img alt="angular-blog file structure" src="./assets/angular-blog_folder-structure.PNG">
 </p>
+
 ## Project Setup and Tooling
+
+### Resources
+Social media icons are downloaded from [this link](https://www.iconfinder.com/iconsets/logotypes). Logotypes, provided by [Zlatko Najdenovski](https://www.iconfinder.com/zlaten). [Licence](http://creativecommons.org/licenses/by/3.0/)
 
 ### Tools
 
