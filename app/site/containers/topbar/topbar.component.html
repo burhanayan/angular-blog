@@ -4,6 +4,6 @@
         <a class="_dynamic" *ngFor="let item of nav" [routerLink]="item.link" routerLinkActive="active" [routerLinkActiveOptions]="item.exact">{{item.name}}</a>
     </nav>
     <div class="social-media-icons col-xs-12 col-md-4">
-        <a *ngFor="let item of socialMediaIcons" [href]="item.link" target="item.target"><img [src]="item.img"/></a>
+        <a *ngFor="let icon of socialMediaIcons" [href]="icon.link" target="icon.target"><img [src]="icon.src" class="each-icon"/></a>
     </div>
-</div>ü
+</div>

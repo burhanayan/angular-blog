@@ -34,6 +34,10 @@
   version "4.0.0-beta.1"
   resolved "https://registry.yarnpkg.com/@angular/router/-/router-4.0.0-beta.1.tgz#61f0d8e911598397f63f16e32bead7aa123bff32"
 
+"@ng-bootstrap/ng-bootstrap@^1.0.0-alpha.20":
+  version "1.0.0-alpha.20"
+  resolved "https://registry.yarnpkg.com/@ng-bootstrap/ng-bootstrap/-/ng-bootstrap-1.0.0-alpha.20.tgz#db353971e4818210e753019b5ddbabad1e603a61"
+
 "@types/core-js@0.9.34":
   version "0.9.34"
   resolved "https://registry.yarnpkg.com/@types/core-js/-/core-js-0.9.34.tgz#72c521d8e59fdaa8b65f76db71fa53c82c7c21c5"

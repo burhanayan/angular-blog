@@ -9,7 +9,7 @@ This repository may include incomplete items.
 ## Project Setup and Tooling
 
 ### Resources
-Social media icons are downloaded from [this link](https://www.iconfinder.com/iconsets/logotypes). Logotypes, provided by [Zlatko Najdenovski](https://www.iconfinder.com/zlaten). [Licence](http://creativecommons.org/licenses/by/3.0/)
+Social media icons are downloaded from [this link](https://www.iconfinder.com/iconsets/social-media-icons-the-circle-set) and [this link](https://www.iconfinder.com/iconsets/logotypes). Social media icons – The Circle Set, provided by [The Pink Group](https://www.iconfinder.com/thepinkgroup) - [Licence](http://creativecommons.org/licenses/by/3.0/). Logotypes, provided by [Zlatko Najdenovski](https://www.iconfinder.com/zlaten). [Licence](http://creativecommons.org/licenses/by/3.0/)
 
 ### Tools
 

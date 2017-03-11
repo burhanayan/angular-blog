@@ -44,24 +44,24 @@ export class TopbarComponent implements OnInit {
         {
             link: 'https://www.facebook.com',
             name: 'Facebook',
-            src: 'assets/social-media-icons/facebook.svg',
+            src: 'assets/icons/facebook.png',
             target: '_blank'
         },       
         {
             link: 'https://www.twitter.com',
             name: 'Twitter',
-            src: 'assets/social-media-icons/twitter.svg',
+            src: 'assets/icons/twitter.png',
             target: '_blank'
         },        {
             link: 'https://www.linkedin.com',
             name: 'Linkedin',
-            src: 'assets/social-media-icons/linkedin.svg',
+            src: 'assets/icons/linkedin.png',
             target: '_blank'
         },        
         {
             link: 'https://www.github.com',
             name: 'Github',
-            src: 'assets/social-media-icons/github.svg',
+            src: 'assets/icons/github.png',
             target: '_blank'
         }
     ];
