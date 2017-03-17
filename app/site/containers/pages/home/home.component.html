@@ -1,11 +1,9 @@
-HOME COMPONENT!!!
-
-<div class="container home">
+<div class="container">
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
         <div *ngFor="let item of posts" class="post">
-            <h3>{{item.title}}</h3>
-            <hr>
-            <p>{{item.content}}</p>
+            <a class="post-title" href=""><h3>{{item.title}}</h3></a>
+            <img src="http://authentic-scandinavia.com/system/images/tours/photos/125/thumbnail.jpg"/>
+            {{item.content}}
         </div>
     </div>
 </div>

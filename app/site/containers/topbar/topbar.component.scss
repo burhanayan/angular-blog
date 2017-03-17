@@ -36,6 +36,9 @@ nav {
             color: $fourth-color;
             background: $secondary-color;
         }
+        &:hover, &:focus, &:visited {
+            text-decoration: none !important;
+        }
     }
 
     .logo {
