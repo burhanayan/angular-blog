@@ -1,7 +1,25 @@
 <div class="container">
+                        <button md-icon-button [mdMenuTriggerFor]="menu">
+              <md-icon>more_vert</md-icon>
+            </button>
+            <md-menu #menu="mdMenu">
+                <button md-menu-item>
+                    <md-icon>dialpad</md-icon>
+                    <span>Redial</span>
+                </button>
+                    <button md-menu-item disabled>
+                    <md-icon>voicemail</md-icon>
+                    <span>Check voicemail</span>
+                </button>
+                    <button md-menu-item>
+                    <md-icon>notifications_off</md-icon>
+                    <span>Disable alerts</span>
+                </button>
+            </md-menu>
     <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
         <div *ngFor="let item of posts" class="post">
             <a class="post-title" href=""><h3>{{item.title}}</h3></a>
+            <a href="" class="date">{{item.date}}</a>
             <img src="http://authentic-scandinavia.com/system/images/tours/photos/125/thumbnail.jpg"/>
             {{item.content}}
         </div>

@@ -7,7 +7,10 @@
     "pretty": true,
     "sourceMap": true,
     "lib": ["es5", "dom"],
-    "strictNullChecks": false
+    "strictNullChecks": false,
+    "types": [
+      "hammerjs"
+    ]
   },
   "exclude": [
     "node_modules"

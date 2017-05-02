@@ -1,11 +1,31 @@
 <div class="navbar navbar-inner navbar-fixed-top">
     <div class="site-topbar">
-        <nav class="nav col-xs-12 col-sm-8">
+        <nav class="nav col-xs-8">
             <a [routerLink]="home.link"><img class="logo" [src]="home.img"></a>
-            <a class="_dynamic" *ngFor="let item of nav" [routerLink]="item.link" routerLinkActive="active" [routerLinkActiveOptions]="item.exact">{{item.name}}</a>
+            <a class="_dynamic nav-expanded" *ngFor="let item of nav" [routerLink]="item.link" routerLinkActive="active" [routerLinkActiveOptions]="item.exact">{{item.name}}</a>
         </nav>
-        <div class="social-media-icons">
+        <div class="social-media-icons nav-expanded">
             <a *ngFor="let icon of socialMediaIcons" [href]="icon.link" target="icon.target"><img [src]="icon.src" class="each-icon" /></a>
         </div>
+        <div class="nav-collapsed">
+            <button md-icon-button [mdMenuTriggerFor]="menu">
+              <md-icon>more_vert</md-icon>
+            </button>
+            <md-menu #menu="mdMenu" md-position-mode="target-right bottom" md-offset="0 60">
+                <button md-menu-item>
+                    <md-icon>dialpad</md-icon>
+                    <span>Redial</span>
+                </button>
+                    <button md-menu-item disabled>
+                    <md-icon>voicemail</md-icon>
+                    <span>Check voicemail</span>
+                </button>
+                    <button md-menu-item>
+                    <md-icon>notifications_off</md-icon>
+                    <span>Disable alerts</span>
+                </button>
+            </md-menu>
+        </div>
     </div>
+
 </div>

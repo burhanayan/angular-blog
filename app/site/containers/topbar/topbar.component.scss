@@ -46,3 +46,31 @@ nav {
         width: $topbar-height;
     }
 }
+
+#cdk-overlay-0 {
+    top: 60px !important;
+}
+
+
+@media screen and (max-width: 700px) {
+    .nav-expanded {
+        display: none;
+    }
+
+    .nav-collapsed {
+        display: inline;
+        position: absolute;
+        right: 40px;
+        top: 5px;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .nav-expanded {
+        display: inline;
+    }
+
+    .nav-collapsed {
+        display: none;
+    }
+}

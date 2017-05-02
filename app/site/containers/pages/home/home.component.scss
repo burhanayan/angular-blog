@@ -5,6 +5,7 @@ $fourth-color: #B64926;
 $fifth-color: #8E2800;
 
 .post {
+    min-height: 230px;
     padding: 5px 5px 20px;
     margin-bottom: 20px;
     box-shadow: 1px 1px 5px #ddd;
@@ -20,6 +21,17 @@ $fifth-color: #8E2800;
         float: left;
         vertical-align: top; 
         margin: 10px;
+    }
+
+    .date {
+        margin: 0 10px !important;
+        font-family: Consolas, monaco, monospace;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: 400;
+        color: #90949c;
+        font-size: 12px;
+        display: block;
     }
 }
 

@@ -1,6 +1,9 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { RouterModule } from '@angular/router';
+import { MaterialModule } from '@angular/material';
 
 // Root Containers
 import { SiteComponent } from './site.component';
@@ -14,7 +17,7 @@ import { ContactComponent } from './containers/pages/contact/contact.component';
 import { AboutComponent } from './containers/pages/about/about.component';
 
 @NgModule({
-    imports: [BrowserModule, RouterModule],
+    imports: [BrowserModule, CommonModule, RouterModule, MaterialModule, ReactiveFormsModule, FormsModule],
     exports: [SiteComponent],
     declarations: [SiteComponent, TopbarComponent, SidebarComponent, FooterComponent, HomeComponent, AboutComponent, ContactComponent],
     providers: [],
